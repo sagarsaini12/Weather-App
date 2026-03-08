@@ -68,10 +68,15 @@ UI Components Render Data
 ## Weather Dashboard
 
 Add your screenshot here:
+<img width="1920" height="888" alt="image" src="https://github.com/user-attachments/assets/b35f2310-5519-47f0-a0cf-1f79558cb2aa" />
+
+<img width="1913" height="886" alt="image" src="https://github.com/user-attachments/assets/2eabbe7d-8b58-4277-8135-056c7ca80381" />
 
 ```
-/screenshots/dashboard.png
+/screenshots/dashb<img width="1913" height="886" alt="image" src="https://github.com/user-attachments/assets/c61d7e6c-dcaa-4778-b705-d7d285327c17" />
+oard.png
 ```
+<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/ba53d708-2ad2-4127-90b8-1e37df4f889f" />
 
 Example display:
 
@@ -179,3 +184,4 @@ types/
 # License
 
 MIT License
+
