@@ -1,187 +1,62 @@
-# Weather Dashboard (Next.js)
+# 🌦️ Weather Dashboard (Next.js)
 
-A modern **Weather Dashboard** built with **Next.js and TypeScript** that displays real-time weather information including temperature, forecasts, air pollution, and UV index.
+A modern and scalable **Weather Dashboard** built with **Next.js, TypeScript, and Tailwind CSS** that provides real-time weather insights including temperature, forecasts, air quality, and UV index.
 
-The application integrates multiple weather APIs and demonstrates modern web development practices such as API integration, server actions, and caching.
-
----
-
-# Features
-
-* Current weather information
-* Hourly forecast
-* Daily temperature forecast
-* Air pollution data
-* UV index monitoring
-* Multiple saved cities
-* Fast server-side data fetching
+This project demonstrates **API integration, server-side rendering, caching, and clean UI design**.
 
 ---
 
-# Tech Stack
+## 🚀 Features
 
-Frontend
-
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-
-APIs
-
-* OpenWeather API
-* Open-Meteo API
-
-Tools
-
-* Node.js
-* Git
-* npm
+- 🌡️ Real-time current weather data  
+- ⏰ Hourly weather forecast  
+- 📅 Daily temperature predictions  
+- 🌫️ Air pollution monitoring  
+- ☀️ UV index tracking  
+- 📍 Multiple city support  
+- ⚡ Fast server-side data fetching (SSR)
 
 ---
 
-# Application Architecture
+## 🛠️ Tech Stack
 
-```
-User Browser
-      │
-      ▼
-Next.js Application
-(Server Components + API Functions)
-      │
-      ▼
-Weather API Layer
-(OpenWeather + Open-Meteo)
-      │
-      ▼
-Weather Data Response
-(JSON)
-      │
-      ▼
-UI Components Render Data
-```
+### Frontend
+- Next.js  
+- React  
+- TypeScript  
+- Tailwind CSS  
+
+### APIs
+- OpenWeather API  
+- Open-Meteo API  
+
+### Tools
+- Node.js  
+- Git & GitHub  
+- npm  
 
 ---
 
-# Screenshots
+## 🏗️ Architecture
 
-## Weather Dashboard
 
-Add your screenshot here:
-<img width="1920" height="888" alt="image" src="https://github.com/user-attachments/assets/b35f2310-5519-47f0-a0cf-1f79558cb2aa" />
-
-<img width="1913" height="886" alt="image" src="https://github.com/user-attachments/assets/2eabbe7d-8b58-4277-8135-056c7ca80381" />
-
-```
-/screenshots/dashb<img width="1913" height="886" alt="image" src="https://github.com/user-attachments/assets/c61d7e6c-dcaa-4778-b705-d7d285327c17" />
-oard.png
-```
-<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/ba53d708-2ad2-4127-90b8-1e37df4f889f" />
-
-Example display:
-
-* Current temperature
-* Weather conditions
-* Hourly forecast
-* UV index
-* Air pollution
-
-## Forecast View
-
-```
-/screenshots/forecast.png
-```
-
-Shows hourly and daily weather predictions.
 
 ---
 
-# Installation
+## 📸 Screenshots
 
-Clone the repository
+### 🌤️ Dashboard View
+![Dashboard](https://github.com/user-attachments/assets/b35f2310-5519-47f0-a0cf-1f79558cb2aa)
 
+![Dashboard](https://github.com/user-attachments/assets/2eabbe7d-8b58-4277-8135-056c7ca80381)
+
+### 📊 Forecast View
+![Forecast](https://github.com/user-attachments/assets/c61d7e6c-dcaa-4778-b705-d7d285327c17)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
 ```bash
 git clone https://github.com/sagarsaini12/weather-dashboard.git
-```
-
-Move into project directory
-
-```bash
-cd weather-dashboard
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Create environment file
-
-Create `.env.local` in the root directory and add:
-
-```
-OPENWEATHER_API_KEY=your_api_key_here
-```
-
-Start development server
-
-```bash
-npm run dev
-```
-
-Open in browser
-
-```
-http://localhost:3000
-```
-
----
-
-# Project Structure
-
-```
-actions/
-  weather.ts        API requests
-
-app/
-  page.tsx          Main dashboard page
-
-components/
-  WeatherCard
-  ForecastList
-  PollutionInfo
-
-hooks/
-  custom React hooks
-
-types/
-  TypeScript interfaces
-```
-
----
-
-# How the Application Works
-
-1. The user opens the weather dashboard.
-2. The application sends requests to weather APIs.
-3. API responses return weather data in JSON format.
-4. Server actions process the data.
-5. UI components display the weather information.
-
----
-
-# Future Improvements
-
-* Search weather by city name
-* Location-based weather detection
-* Weather charts using graphs
-* Dark mode
-* Mobile responsive improvements
-
----
-
-# License
-
-MIT License
-
