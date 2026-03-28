@@ -51,8 +51,8 @@ This project demonstrates **API integration, server-side rendering, caching, and
 ![Dashboard](https://github.com/user-attachments/assets/2eabbe7d-8b58-4277-8135-056c7ca80381)
 
 ### 📊 Forecast View
-![Forecast](https://github.com/user-attachments/assets/c61d7e6c-dcaa-4778-b705-d7d285327c17)
 
+![Forecast](https://github.com/user-attachments/assets/c61d7e6c-dcaa-4778-b705-d7d285327c17)
 ---
 
 ## ⚙️ Installation
